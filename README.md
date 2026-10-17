@@ -90,12 +90,3 @@ The brief left these open, so here is what I chose:
    leaves all balances and the week number untouched.
 9. **Currency is GHS** and is only a display label; the maths is currency-agnostic.
 
-## What I would improve with more time
-
-- Allow late joiners with an explicit, agreed rule (e.g. joining at the end of
-  the order, and catching up on missed contributions).
-- A payment ledger with timestamps per contribution, not just a running total
-  per week, for auditing and undo.
-- Optional carry-over of overpayments into the next week.
-- Multiple groups in one data file and an `--as-json` output for a small API.
-- Concurrency protection (file locking) if two people run commands at once.
